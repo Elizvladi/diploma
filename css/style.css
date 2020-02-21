@@ -1,0 +1,1105 @@
+@font-face {
+  font-family: opensans;
+  src: url("fonts/OpenSans-Bold.ttf") format('truetype');
+  src: url("fonts/OpenSans-Bold.woff") format('woff');
+  src: url("fonts/OpenSans-Bold.woff2") format('woff2');
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: opensans;
+  src: url("fonts/OpenSans-Regular.ttf") format('truetype');
+  src: url("fonts/OpenSans-Regular.woff") format('woff');
+  src: url("fonts/OpenSans-Regular.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: opensans;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  }
+
+.btn__txt1 {
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.btn__txt2 {
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 700;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.body__list__numb {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.body__list__numb-3-1, body__list__numb-3-2 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.body__list__txt {
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-weight: 700;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.body__list__txt-3{
+    color: #ffffff;
+  }
+  
+.principle__number{
+   font-weight: 700;
+   color: #ffffff; 
+}
+
+h4 {
+  font-weight: 700;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.principle_txt {
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  font-weight: 400;
+  color: #a496ca;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+  
+.button {
+  padding: 0;
+  border: 0;
+}
+
+
+.button-googleplay__logo__svg, .button-appstore__logo__svg {
+  fill: #ffffff;
+}
+
+.button-appstore__txt, .button-googleplay__txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.button-appstore, .button-googleplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5e42b0;
+  border: none;  
+}
+
+.button-googleplay__logo {
+  margin-left: -14px;
+}
+
+.body__basketballer__pic, body__athlet__pic {
+  position: relative;
+  z-index: 10;
+}
+
+.principle__block-number {
+  background-color: #5c42b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.footer {
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #000000;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+  .svg__logo-2 {
+  fill: #ffffff;
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 28px;
+  }
+  
+  .btn__txt1{
+    font-size: 8px;
+}
+
+  .btn__txt2{
+    font-size: 8px;
+}
+
+  h2 {
+    font-size: 50px;
+    margin: 0px;
+    padding-left: 0.4em;
+    padding-bottom: 0.36em;
+}
+  .body__list__numb, .body__list__numb-3-1, .body__list__numb-3-2 {
+    font-size: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  } 
+  
+  .body__list__numb {
+    border-bottom: 4px solid #5e42b0;
+}
+  
+  .body__list__numb-3-1{
+    color: #000000;
+  }
+  
+  .body__list__numb-3-2{
+    color: #8765dd;
+  }
+  
+  .body__list__numb-3-1, .body__list__numb-3-2 {
+    border-bottom: 4px solid #ffffff;
+}
+  .body__list__txt, .body__list__txt-2, .body__list__txt-3  {
+    font-size: 15px;
+  }
+  
+  .body__list__txt,  .body__list__txt-3  {
+    margin-left: 0px;
+    margin-top: 28px;
+    margin-right: 20px;
+    width: 100%;
+    padding: 0px 0px 51px 0px ;
+}
+  
+  .body__list__txt-2 {
+    padding: 0px 0px 51px 0px ;
+  } 
+ 
+  h3 {
+    font-size: 23px;
+    margin: 0px 0px 0px 10px;
+    height: 1em;
+}
+
+  h4 {
+    font-size: 28px;
+    margin: 22px 0px 0px 0px;
+}
+
+  .principle_txt {
+    font-size: 16px;
+    margin: 24px 0px 77px 0px;
+}
+  .principle__number {
+    font-size: 14px;
+    border-bottom: 5px solid #917bd0;
+  }
+
+  h5 {
+    font-size: 32px;
+}
+
+  h6 {
+    font-size: 14px;
+}
+  
+  .header {
+    background: linear-gradient(to top, rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url("https://github.com/Elizvladi/diploma/blob/master/images/football_767.jpg?raw=true") no-repeat;
+    background-size: cover;
+  }
+  
+  .svg__logo{
+    width: 136px;
+    height: 36px;
+  }
+
+  .logo{
+    padding: none;
+    margin-top: 33px; 
+    heigt: 38px;
+  }
+  
+  .header__h1-title1 {
+    align-self: flex-start;
+    padding: 0px 20px 9px 20px;
+    margin: 0;
+    margin-top: 126px;
+  } 
+  
+  .header__h1-title2 {
+    align-self: flex-end;
+    padding: 9px 42px 7px 42px;
+    margin: 0;
+  } 
+    
+  .button-appstore, .button-googleplay {
+    width: 281px;
+    height: 35px;
+    border-radius: 20px;
+  }
+ 
+  .header__store-buttons {
+    margin-top: 74px;
+    margin-bottom: 84px;
+  }
+ 
+  .store-buttons{
+    margin: 0;
+    padding: none;
+  }
+  
+  .button-appstore__txt, .button-googleplay__txt {
+  margin-left: 10px;
+  }
+
+  
+  .button-appstore__logo__svg, .button-googleplay__logo__svg {
+    width: 22px;
+    height: 25px;
+  }
+  
+  .button-googleplay {
+    margin-top: 14px;
+  }
+  
+  .body__list-a, .body__list-p {
+    display: flex;
+    flex-direction: column;
+    margin-top: 227px;
+  }
+  
+  .body__list-a-01, .body__list-a-02, .body__list-a-03, .body__list-p-01, .body__list-p-02, .body__list-p-03 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 20px;
+  }
+  
+  .body__list-a-01 {
+    padding-top: 83px;
+    background-color: #fafafa;
+  }
+  
+  .body__list-a-02 {
+    padding-top: 60px;
+    background-color: #f5f4f9;
+  }
+      
+  .body__list-a-03 {
+    padding-top: 60px;
+    background-color: #5e42b0;
+  }
+     
+  .body__list-p-01 {
+    padding-top: 83px;
+    background-color: #fafafa;
+  }
+      
+  .body__list-p-02 {
+    padding-top: 60px;
+    background-color: #f5f4f9;
+  }
+     
+  .body__list-p-03 {
+    padding-top: 57px;
+    background-color: #090c35;
+  }
+  
+  .body__list__numb, body__list__title {
+    height: 18px;
+  }
+  
+  .body__athlet__pic {
+    position: absolute;
+    left: 20%;
+    object-fit: cover;
+    width: 80%;
+  }
+  
+  .body__basketballer__pic {
+    position: absolute;
+    left: 3.125%;
+    right: 2.5%;
+    object-fit: cover;
+    width: 94.375%;
+  }
+  
+  .principle__img-01, .principle__img-02, .principle__img-03 {
+    height: 351px;
+  }
+  
+  .principle__img-01 {
+    background: url(https://github.com/Elizvladi/diploma/blob/master/images/be-active_640.jpg?raw=true) 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .principle__img-02 {
+    background: url(https://github.com/Elizvladi/diploma/blob/master/images/find-contact_640.jpg?raw=true) 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .principle__img-03 {
+    background: url(https://github.com/Elizvladi/diploma/blob/master/images/work-it_640.jpg?raw=true) 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .principle__inf-01, .principle__inf-02, .principle__inf-03 {
+    margin: -58px 0px 0px 20px;
+  }
+  
+  .principle__block-number {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .footer {
+    background: linear-gradient(to top, rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url("https://github.com/Elizvladi/diploma/blob/master/images/game_767.jpg?raw=true");
+    background-size: cover;
+  }
+  
+  .footer__part2 {
+    margin-top: 74px;
+    margin-bottom: 84px;
+  }
+
+  .footer_part1__logo {
+    width: 72px;
+    height: 74px;
+    background-color: #5e42b0;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 99px;
+    margin-bottom: 47px;
+}
+  
+  .svg__logo-2 {
+    width: 58px;
+    height: 49px;
+    margin-top: 18%;
+    margin-left: 9%;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 960px) {
+  h1 {
+    font-size: 64px;
+  }
+  
+  .btn__txt1, .btn__txt2 {
+    font-size: 14px;
+}
+
+  h2 {
+    font-size: 80px;
+}
+  
+  .body__list__numb, .body__list__numb-3-1, .body__list__numb-3-2 {
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  
+  .body__list__numb {
+    margin-left: 0px;
+    border-bottom: 5px solid #5e42b0;
+}
+  
+  .body__list__numb-3-1{
+    color: #000000;
+  }
+  
+  .body__list__numb-3-2{
+    color: #8765dd;
+    height: 18px;
+  }
+  
+  .body__list__numb-3-1, .body__list__numb-3-2 {
+    border-bottom: 5px solid #ffffff;
+}
+  .body__list__txt, .body__list__txt-2, .body__list__txt-3  {
+    font-size: 16px;
+    margin-top: 23px;
+    width: 100%;
+}
+  
+  .body__list__txt, .body__list__txt-2  {
+    margin-left: 0px;
+    width: 100%;
+    padding: 0px 0px 38px 0px ;
+}
+  
+  .body__list__txt-3 {
+    padding: 0px 0px 34px 0px ;
+  } 
+ 
+  h3 {
+    font-size: 32px;
+    margin: 0px 0px 0px 10px;
+    height: 1em;
+}
+
+  h4 {
+    font-size: 80px;
+    margin: 34px 0px 0px 0px;
+}
+
+  .principle_txt {
+    font-size: 24px;
+    margin: 34px 0px 104px 0px;
+}
+  .principle__number {
+    font-size: 24px;
+    border-bottom: 5px solid #917bd0;
+  }
+
+  h5 {
+    font-size: 80px;
+}
+
+  h6 {
+    font-size: 36px;
+}
+  
+  .header {
+    background: linear-gradient(to top, rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url("https://github.com/Elizvladi/diploma/blob/master/images/football_1280.jpg?raw=true") no-repeat;
+    background-size: cover;
+  }
+  
+  .svg__logo{
+    width: 204px;
+    height: 56px;
+    margin-top: 5px;
+  }
+
+  
+  .logo{
+    padding: none;
+    margin-top: 33px; 
+    heigt: 38px;
+  }
+  
+  .header__h1-title1 {
+    align-self: flex-start;
+    padding: 0px 20px 0px 90px;
+    margin: 0;
+    margin-top: 160px;
+  } 
+  
+  .header__h1-title2 {
+    align-self: flex-start;
+    padding: 0px 0px 0px 198px;
+    margin: 0;
+  } 
+       
+  .button-appstore, .button-googleplay {
+  width: 312px;
+  height: 77px;
+  border-radius: 40px;
+  }
+   
+  .header__store-buttons {
+    margin-top: 294px;
+    margin-bottom: 90px;
+  }
+  
+  .store-buttons{
+    margin: 0;
+    padding: none;
+    display: flex;
+  }
+  
+  .button-appstore__txt, .button-googleplay__txt {
+  margin-left: 27px;
+}
+  
+  .button-appstore__logo__svg, .button-googleplay__logo__svg {
+    width: 42px;
+    height: 45px;
+  }
+  
+  .button-googleplay {
+    margin-left: 28px;
+  }
+  
+  .body__athlets, .body__players {
+    position: relative;
+  }
+  
+  .body__athlet__pic {
+    position: absolute;
+    top: 94px;
+    left: -165px;
+    object-fit: cover;
+  }
+  
+  .body__basketballer__pic {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    object-fit: cover;
+  }
+  
+  .body__athlets-title {
+    padding-top: 66px;
+    padding-left: 293px;
+  }
+  
+  .body__players-title {
+    padding-top: 67px;
+    padding-left: 35px;
+  }
+  
+  
+  .body__list-a, .body__list-p  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+   .body__list-a {
+    margin-top: 0px;
+  }
+  
+   .body__list-p {
+    margin-top: 0px;
+  }
+  
+  .body__list-a-01, .body__list-a-02, .body__list-a-03 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 293px;
+  }
+  
+  .body__list-p-01, .body__list-p-02, .body__list-p-03 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 32px;
+  }
+  
+  .body__list-a-01 {
+    padding-top: 36px;
+    padding-right: 44px;
+    background-color: #ffffff;
+    flex-basis: 185px;
+  }
+  
+  .body__list-a-02 {
+    padding-top: 37px;
+    padding-right: 38px;
+    background-color: #f5f4f9;
+    flex-basis: 234px;
+  }
+  
+  .body__list-a-03 {
+    padding-top: 39px;
+    padding-right: 30px;
+    background-color: #5e42b0;
+    flex-basis: 178px;
+  }
+    
+  .body__list-p-01 {
+    padding-top: 83px;
+    padding-right: 352px;
+    background-color: #ffffff;
+    flex-basis: 213px;
+  }
+  
+  .body__list-p-02 {
+    padding-top: 60px;
+    padding-right: 340px;
+    background-color: #f5f4f9;
+    flex-basis: 180px;
+  }
+  
+  .body__list-p-03 {
+    padding-top: 57px;
+    padding-right: 300px;
+    background-color: #090c35;
+    flex-basis: 181px;
+  }
+  
+  .body__list__numb, body__list__title {
+    height: 18px;
+  }
+    
+  .principle__img-01, .principle__img-02, .principle__img-03 {
+    height: 584px;
+  }
+  
+  .principle__img-01 {
+    background: url(https://github.com/Elizvladi/diploma/blob/master/images/be-active_960.jpg?raw=true) 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .principle__img-02 {
+    background: url(https://github.com/Elizvladi/diploma/blob/master/images/find-contact_960.jpg?raw=true) 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .principle__img-03 {
+    background: url(https://github.com/Elizvladi/diploma/blob/master/images/work-it_960.jpg?raw=true) 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .principle__inf-01, .principle__inf-02, .principle__inf-03 {
+    margin: -80px 0px 0px 34px;
+  }
+  
+  .principle__block-number {
+    width: 115px;
+    height: 115px;
+  }
+  
+  .footer {
+    background: linear-gradient(to top, rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url("https://github.com/Elizvladi/diploma/blob/master/images/game_1280.jpg?raw=true");
+    background-size: cover;
+  }    
+  
+  .footer_part1__logo {
+    width: 130px;
+    height: 138px;
+    background-color: #5e42b0;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 127px;
+    margin-bottom: 64px;
+}
+  
+  .svg__logo-2 {
+    width: 105px;
+    height: 87px;
+    margin-top: 18%;
+    margin-left: 9%;
+  }
+  
+  .footer_part1 {
+    padding: 0 32px;
+  }
+  
+  .footer__part2 {
+    margin-top: 280px;
+    margin-bottom: 53px;
+  }
+  
+  .logo-2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  h1 {
+    font-size: 90px;
+  }
+  
+  .btn__txt1, .btn__txt2 {
+    font-size: 14px;
+}
+
+  h2 {
+    font-size: 80px;
+}
+  
+  .body__list__numb, .body__list__numb-3-1, .body__list__numb-3-2 {
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  
+  .body__list__numb {
+    margin-left: 0px;
+    border-bottom: 5px solid #5e42b0;
+}
+  
+  .body__list__numb-3-1{
+    color: #000000;
+  }
+  
+  .body__list__numb-3-2{
+    color: #8765dd;
+    height: 18px;
+  }
+  
+  .body__list__numb-3-1, .body__list__numb-3-2 {
+    border-bottom: 5px solid #ffffff;
+}
+  .body__list__txt, .body__list__txt-2, .body__list__txt-3  {
+    font-size: 20px;
+    margin-top: 24px;
+    width: 100%;
+    min-width: 628px;
+}
+ 
+  h3 {
+    font-size: 36px;
+    margin: 0px 0px 0px 10px;
+    height: 1em;
+}
+
+  h4 {
+    font-size: 80px;
+}
+
+  .principle_txt {
+    font-size: 24px;
+}
+  
+  .principle__number {
+    font-size: 24px;
+    border-bottom: 5px solid #917bd0;
+  }
+
+  h5 {
+    font-size: 80px;
+}
+
+  h6 {
+    font-size: 30px;
+}
+  
+  .header {
+    background: linear-gradient(to top, rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url("https://github.com/Elizvladi/diploma/blob/master/images/football_1920.jpg?raw=true") no-repeat;
+    background-color: #000000;
+    background-size: cover;
+    padding-top: 45px;
+  }
+  
+  .svg__logo{
+    width: 193px;
+    height: 53px;
+  }
+  
+  .header__h1-title1 {
+    align-self: flex-start;
+    margin-top: 271px;
+    margin-left: 192px;
+  } 
+  
+  .header__h1-title2 {
+    align-self: flex-start;
+    margin-top: -16px;
+    margin-left: 645px;
+  } 
+       
+  .button-appstore, .button-googleplay {
+  width: 314px;
+  height: 78px;
+  border-radius: 39px;
+  }
+   
+  .header__store-buttons {
+    margin-top: 203px;
+    margin-bottom: 110px;
+  }
+  
+  .store-buttons{
+    margin: 0;
+    padding: none;
+    display: flex;
+  }
+  
+  .button-appstore__txt, .button-googleplay__txt {
+    margin-left: 27px;
+}
+  
+  .button-appstore__logo__svg, .button-googleplay__logo__svg {
+    width: 42px;
+    height: 45px;
+  }
+  
+  .button-googleplay {
+    margin-left: 50px;
+  }
+  
+  .body__athlets, .body__players {
+    position: relative;
+  }
+  
+  .body__athlet__pic {
+    position: absolute;
+    top: 27px;
+    left: 395px;
+    object-fit: cover;
+  }
+  
+  .body__basketballer__pic {
+    position: absolute;
+    top: 29px;
+    right: 123px;
+    object-fit: contain;
+  }
+  
+  .body__athlets-title {
+    padding-top: 117px;
+    padding-left: 1008px;
+  }
+  
+  .body__players-title {
+    padding-top: 119px;
+    padding-left: 193px;
+  }
+  
+  
+  .body__list-a, .body__list-p  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+   .body__list-a {
+    margin-top: 0px;
+  }
+  
+   .body__list-p {
+    margin-top: 0px;
+  }
+  
+  .body__list-a-01, .body__list-a-02, .body__list-a-03 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 1008px;
+    padding-right: 194px;
+    padding-bottom: 60px;
+  }
+  
+  .body__list-p-01, .body__list-p-02, .body__list-p-03 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 193px;
+    padding-right: 978px;
+    padding-bottom: 60px;
+  }
+ 
+  .body__list-a-01 {
+    padding-top: 81px;
+    background-color: #ffffff;
+    
+  }
+  
+  .body__list-a-02 {
+    padding-top: 60px;
+    background-color: #f5f4f9;
+    
+  }
+  
+  .body__list-a-03 {
+    padding-top: 60px;
+    background-color: #5e42b0;
+    
+  }
+  
+    
+  .body__list-p-01 {
+    padding-top: 60px;
+    background-color: #ffffff;
+    
+  }
+  
+  .body__list-p-02 {
+    padding-top: 60px;
+    background-color: #f5f4f9;
+    
+  }
+  
+  .body__list-p-03 {
+    padding-top: 60px;
+    background-color: #090c35;    
+  }
+  
+  .body__list__numb, body__list__title, .body__list__numb-3-1, .body__list__numb-3-2 {
+    height: 18px;
+  }
+  
+  .principle {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .principle_01, .principle_02, .principle_03 {
+    display: flex;
+    flex-direction: wrap;
+    min-height: 731px;
+  }
+  
+  .principle_02 {
+    flex-direction: row-reverse;
+  }
+  
+  .principle_txt {
+    margin-top: 53px;
+}
+  .principle__block-txt-01, principle__block-txt-02, principle__block-txt-03 {
+    display: flex;
+    flex-direction: column;
+    width: 684px;
+    margin-top: 28px;
+  }
+   
+  .principle__inf-01, .principle__inf-03 {
+    margin: 212px 0px 0px -130px;
+    display: flex;
+  }
+  
+   .principle__inf-02 {
+    margin: 212px -130px 0px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+    
+  .principle__block-number {
+    min-width: 170px;
+    height: 160px;
+    margin-left: 45px;
+    margin-right: 45px;
+  } 
+  
+  .principle__img-01, .principle__img-02, .principle__img-03 {
+    min-width: 50%;
+  }
+  
+  .principle__img-01 {
+    background: url(https://github.com/Elizvladi/diploma/blob/master/images/be-active_1024.jpg?raw=true) 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .principle__img-02 {
+    background: url(https://github.com/Elizvladi/diploma/blob/master/images/find-contact_1024.jpg?raw=true) 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .principle__img-03 {
+    background: url(https://github.com/Elizvladi/diploma/blob/master/images/work-it_1024.jpg?raw=true) 100% 100% no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .footer {
+    background: linear-gradient(to top, rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url("https://github.com/Elizvladi/diploma/blob/master/images/game_1920.jpg?raw=true");
+    background-size: cover;
+  }    
+  
+  .footer_part1 {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 229px;
+    margin-bottom: 152px;
+  }
+  
+  .footer_part1__logo {
+    width: 130px;
+    height: 138px;
+    background-color: #5e42b0;
+    border-radius: 30px;
+}
+  
+  .footer_part1__title {
+    margin-left: 37px;
+  }
+  
+  .footer_part1__title-2 {
+    margin-top: -5px;
+  }
+  
+  .svg__logo-2 {
+    width: 105px;
+    height: 87px;
+    margin-top: 18%;
+    margin-left: 9%;
+  }
+  
+  .footer__part2 {
+    margin-top: 0px;
+    margin-bottom: 262px;
+  }
+  
+  .logo-2 {
+    margin-bottom: 52px;
+  }
+}
