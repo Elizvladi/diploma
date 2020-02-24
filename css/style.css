@@ -771,7 +771,7 @@ h6 {
   }
 }
 
-@media screen and (min-width: 961px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-width: 961px) and (-webkit-min-device-pixel-ratio: 2) {
   h1 {
     font-size: 90px;
   }
