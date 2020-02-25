@@ -843,6 +843,10 @@ h6 {
     font-size: 30px;
 }
   
+  html {
+    width: 100%;
+  }
+  
   .header {
     background: linear-gradient(to top, rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url("https://github.com/Elizvladi/diploma/blob/master/images/football_1920.jpg?raw=true") no-repeat;
     background-color: #000000;
@@ -859,13 +863,13 @@ h6 {
   .header__h1-title1 {
     align-self: flex-start;
     margin-top: 271px;
-    margin-left: 192px;
+    margin-left: 10%;
   } 
   
   .header__h1-title2 {
     align-self: flex-start;
     margin-top: -16px;
-    margin-left: 645px;
+    margin-left: 33.6%;
   } 
        
   .button-appstore, .button-googleplay {
@@ -886,7 +890,7 @@ h6 {
   }
   
   .button-appstore__txt, .button-googleplay__txt {
-    margin-left: 27px;
+    margin-left: 1.4%;
 }
   
   .button-appstore__logo__svg, .button-googleplay__logo__svg {
@@ -918,12 +922,12 @@ h6 {
   
   .body__athlets-title {
     padding-top: 117px;
-    padding-left: 1008px;
+    padding-left: 52.5%;
   }
   
   .body__players-title {
     padding-top: 119px;
-    padding-left: 193px;
+    padding-left: 10.05%;
   }
   
   
@@ -944,8 +948,8 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding-left: 1008px;
-    padding-right: 194px;
+    padding-left: 52.5%;
+    padding-right: 1.1%;
     padding-bottom: 60px;
     min-width: 100%;
   }
@@ -954,8 +958,8 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding-left: 193px;
-    padding-right: 978px;
+    padding-left: 10.05%;
+    padding-right: 50.93%;
     padding-bottom: 60px;
     min-width: 100%;
   }
@@ -963,7 +967,6 @@ h6 {
   .body__list-a-01 {
     padding-top: 81px;
     background-color: #ffffff;
-    
   }
   
   .body__list-a-02 {
@@ -988,7 +991,6 @@ h6 {
   .body__list-p-02 {
     padding-top: 60px;
     background-color: #f5f4f9;
-    
   }
   
   .body__list-p-03 {
@@ -1023,17 +1025,17 @@ h6 {
   .principle__block-txt-01, .principle__block-txt-02, .principle__block-txt-03 {
     display: flex;
     flex-direction: column;
-    width: 684px;
+    width: 35.62%;
     margin-top: 28px;
   }
    
   .principle__inf-01, .principle__inf-03 {
-    margin: 212px 0px 0px -130px;
+    margin: 212px 0px 0px 6.77%;
     display: flex;
   }
   
    .principle__inf-02 {
-    margin: 212px -130px 0px 0px;
+    margin: 212px -6.77% 0px 0px;
     display: flex;
     flex-direction: row-reverse;
   }
@@ -1041,8 +1043,8 @@ h6 {
   .principle__block-number {
     min-width: 170px;
     height: 160px;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 2.34%;
+    margin-right: 2.34%;
   } 
   
   .principle__img-01, .principle__img-02, .principle__img-03 {
@@ -1088,11 +1090,11 @@ h6 {
 }
   
   .footer_part1__title {
-    margin-left: 37px;
+    margin-left: 1.93%;
   }
   
   .footer_part1__title-2 {
-    margin-top: -5px;
+    margin-top: -0.26%;
   }
   
   .svg__logo-2 {
