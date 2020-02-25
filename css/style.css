@@ -64,7 +64,7 @@ h2 {
   padding: 0;
 }
 
-.body__list__numb-3-1, body__list__numb-3-2 {
+.body__list__numb-3-1, .body__list__numb-3-2 {
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -166,7 +166,7 @@ h6 {
   margin-left: -14px;
 }
 
-.body__basketballer__pic, body__athlet__pic {
+.body__basketballer__pic, .body__athlet__pic {
   position: relative;
   z-index: 10;
 }
@@ -484,11 +484,11 @@ h6 {
     border-bottom: 5px solid #5e42b0;
 }
   
-  .body__list__numb-3-1{
+  .body__list__numb-3-1 {
     color: #000000;
   }
   
-  .body__list__numb-3-2{
+  .body__list__numb-3-2 {
     color: #8765dd;
     height: 18px;
   }
@@ -699,7 +699,7 @@ h6 {
     flex-basis: 181px;
   }
   
-  .body__list__numb, body__list__title {
+  .body__list__numb, .body__list__title {
     height: 18px;
   }
     
@@ -795,11 +795,11 @@ h6 {
     border-bottom: 5px solid #5e42b0;
 }
   
-  .body__list__numb-3-1{
+  .body__list__numb-3-1 {
     color: #000000;
   }
   
-  .body__list__numb-3-2{
+  .body__list__numb-3-2 {
     color: #8765dd;
     height: 18px;
   }
@@ -1013,7 +1013,7 @@ h6 {
   .principle_txt {
     margin-top: 53px;
 }
-  .principle__block-txt-01, principle__block-txt-02, principle__block-txt-03 {
+  .principle__block-txt-01, .principle__block-txt-02, .principle__block-txt-03 {
     display: flex;
     flex-direction: column;
     width: 684px;
