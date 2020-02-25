@@ -1021,8 +1021,8 @@ h6 {
   
   .principle_txt {
     margin-top: 53px;
-    min-width: 33.85%;
-    max-width: 35%;
+    min-width: 650px;
+    max-width: 655px;
 }
   
   .principle__block-txt-01, .principle__block-txt-02, .principle__block-txt-03 {
