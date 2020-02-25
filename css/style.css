@@ -381,7 +381,7 @@ h6 {
     background-color: #090c35;
   }
   
-  .body__list__numb, body__list__title {
+  .body__list__numb, .body__list__title {
     height: 18px;
   }
   
@@ -991,7 +991,7 @@ h6 {
     background-color: #090c35;    
   }
   
-  .body__list__numb, body__list__title, .body__list__numb-3-1, .body__list__numb-3-2 {
+  .body__list__numb, .body__list__title, .body__list__numb-3-1, .body__list__numb-3-2 {
     height: 18px;
   }
   
