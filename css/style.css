@@ -1035,12 +1035,12 @@ h6 {
   }
   
   .principle__inf-01, .principle__inf-03 {
-    margin: 212px 0px 0px -84px;
+    margin: 212px 0px 0px -130px;
     display: flex;
   }
   
    .principle__inf-02 {
-    margin: 212px -84px 0px 0px;
+    margin: 212px -130px 0px 0px;
     display: flex;
     flex-direction: row-reverse;    
     justify-content: space-between;
@@ -1049,8 +1049,8 @@ h6 {
   .principle__block-number {
     min-width: 168px;
     height: 160px;
-    margin-left: 2.34%;
-    margin-right: 2.34%;
+    margin-left: 46px;
+    margin-right: 46px;
   } 
   
   .principle__img-01, .principle__img-02, .principle__img-03 {
