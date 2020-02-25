@@ -813,12 +813,12 @@ h6 {
     font-size: 20px;
     margin-top: 24px;
     width: 100%;
-    min-width: 628px;
+    min-width: 32.7%;
 }
  
   h3 {
     font-size: 36px;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 0.52%;
     height: 1em;
 }
 
@@ -856,7 +856,7 @@ h6 {
   }
   
   .svg__logo{
-    width: 193px;
+    width: 10.05%;
     height: 53px;
   }
   
@@ -1041,7 +1041,7 @@ h6 {
   }
     
   .principle__block-number {
-    min-width: 170px;
+    min-width: 8.85%;
     height: 160px;
     margin-left: 2.34%;
     margin-right: 2.34%;
