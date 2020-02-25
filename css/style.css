@@ -944,6 +944,7 @@ h6 {
     padding-left: 1008px;
     padding-right: 194px;
     padding-bottom: 60px;
+    min-width: 100%;
   }
   
   .body__list-p-01, .body__list-p-02, .body__list-p-03 {
@@ -953,6 +954,7 @@ h6 {
     padding-left: 193px;
     padding-right: 978px;
     padding-bottom: 60px;
+    min-width: 100%;
   }
  
   .body__list-a-01 {
