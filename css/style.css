@@ -1026,11 +1026,10 @@ h6 {
     display: flex;
     flex-direction: column;
     margin-top: 28px;
-    width: 35%;
   }
   
    .principle__block-txt-02 {
-   margin-left:35%;  
+   margin-left: 10.1%;  
   }
   
   .principle__inf-01, .principle__inf-03 {
@@ -1041,7 +1040,8 @@ h6 {
    .principle__inf-02 {
     margin: 212px -6.77% 0px 0px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse;    
+    justify-content: space-between;
   }
     
   .principle__block-number {
