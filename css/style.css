@@ -19,6 +19,7 @@
 html{
   -webkit-appearance: none;
   -moz-appearance: none;
+  -webkit-text-size-adjust: none; 
 }
 
 body {
