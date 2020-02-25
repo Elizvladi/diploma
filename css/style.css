@@ -846,6 +846,7 @@ h6 {
     background-color: #000000;
     background-size: cover;
     padding-top: 45px;
+    min-width: 100%;
   }
   
   .svg__logo{
@@ -1000,12 +1001,14 @@ h6 {
   .principle {
     display: flex;
     flex-direction: column;
+    min-width: 100%;
   }
   
   .principle_01, .principle_02, .principle_03 {
     display: flex;
     flex-direction: wrap;
     min-height: 731px;
+    min-width: 100%;
   }
   
   .principle_02 {
