@@ -1035,19 +1035,19 @@ h6 {
   }
   
   .principle__inf-01, .principle__inf-03 {
-    margin: 212px 0px 0px -6.77%;
+    margin: 212px 0px 0px -calc(84px+2.34%);
     display: flex;
   }
   
    .principle__inf-02 {
-    margin: 212px -6.77% 0px 0px;
+    margin: 212px -calc(84px+2.34%) 0px 0px;
     display: flex;
     flex-direction: row-reverse;    
     justify-content: space-between;
   }
     
   .principle__block-number {
-    min-width: 160px;
+    min-width: 168px;
     height: 160px;
     margin-left: 2.34%;
     margin-right: 2.34%;
