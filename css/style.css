@@ -1026,8 +1026,13 @@ h6 {
     display: flex;
     flex-direction: column;
     margin-top: 28px;
+    width: 35%;
   }
-   
+  
+   .principle__block-txt-02 {
+   margin-left:35%;  
+  }
+  
   .principle__inf-01, .principle__inf-03 {
     margin: 212px 0px 0px 6.77%;
     display: flex;
