@@ -902,14 +902,14 @@ h6 {
   .body__athlet__pic {
     position: absolute;
     top: 27px;
-    left: 395px;
+    left: 20.57%;
     object-fit: cover;
   }
   
   .body__basketballer__pic {
     position: absolute;
     top: 29px;
-    right: 123px;
+    right: 6.4%;
     object-fit: contain;
   }
   
