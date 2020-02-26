@@ -1123,12 +1123,7 @@ h6 {
 
 @media(min-width: 961px) and (max-width: 1176px) {
   .principle__block-txt-02 {
-    width: 390px;
-    margin-left: 240px; 
+    width: 370px;
     margin-top: 56px;
   }
-  
-  .principle__block-number {
-    margin-left: 0px;
-  } 
 }
